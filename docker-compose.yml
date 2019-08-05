@@ -32,6 +32,7 @@ services:
     volumes:
       - ./src:/var/www
       - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+      - ./docker/certificates/:/etc/letsencrypt/live/ecommerce/
     networks:
       - app-network
 
