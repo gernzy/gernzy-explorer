@@ -62,7 +62,7 @@
     },
     "repositories": [
         {
-            "url": "https://github.com/lab19digital/ecommerce-server.git",
+            "url": "https://github.com/gernzy/gernzy-server.git",
             "type": "git"
         }
     ]
